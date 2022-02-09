@@ -5,6 +5,9 @@
 *.project
 *.classpath
 
+# Unity meta files
+*.meta
+
 # Log file
 *.log
 
