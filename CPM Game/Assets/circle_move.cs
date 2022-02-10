@@ -5,7 +5,9 @@ using UnityEngine;
 public class circle_move : MonoBehaviour
 {
 
-    float xpos, ypos, dt, hor, ver;
+    float xpos, ypos, dt;
+    [HideInInspector]
+    public float hor, ver;
     public float xSpeed, ySpeed;
 
     // Start is called before the first frame update
