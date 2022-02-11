@@ -19,12 +19,12 @@ public class Camera_move : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(";")) {
+        if (Input.GetKey(",")) {
             transform.position = new Vector3(pos1x, pos1y, -3);
             Camera.main.backgroundColor = new Color(193f/255,228f/255,112f/255);
         }
 
-        else if (Input.GetKey("'")) {
+        else if (Input.GetKey(".")) {
             transform.position = new Vector3(pos2x, pos2y, -3);
             Camera.main.backgroundColor = new Color(229f/255, 152f/255, 230f/255);
         } 
